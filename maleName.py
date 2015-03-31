@@ -5,6 +5,7 @@ from random import randint
 
 #The best name is a simple name
 print ("Only male names")
+
 #def option = null Not used
 
 with open('dataMale.json') as data_file:    
@@ -30,5 +31,4 @@ randomLast =  data["lastnames"][random]
 s = randomName +" " +randomLast
 print(s)
 
-	#while (option = null):
-	
+	#while (option = null):	

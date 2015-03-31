@@ -1,6 +1,6 @@
 #Imports
 import json 
-from pprint import pprint
+#from pprint import pprint Not used
 from random import randint
 
 #The best name is a simple name
@@ -11,7 +11,7 @@ print ("Only female names Generator")
 with open('dataFemale.json') as data_file:    
     data = json.load(data_file)
 
-#Only to show to he user how many combinations can be possible 
+#Only to show how many combinations can be possible 
 print("Until now...")
 s = str(len(data.get("names"))) + " Differents names..."
 print(s)

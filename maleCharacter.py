@@ -4,7 +4,7 @@ import json
 from random import randint
 
 #The best name is a simple name
-print ("Male NPC")
+print ("Male Character")
 
 #def option = null Not used
 

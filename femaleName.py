@@ -30,6 +30,3 @@ randomLast =  data["lastnames"][random]
 
 s = randomName +" " +randomLast
 print(s)
-
-	#while (option = null):
-	

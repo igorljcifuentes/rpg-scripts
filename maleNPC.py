@@ -17,7 +17,9 @@ s = str(len(data.get("names"))) + " Differents names..."
 print(s)
 s = str(len(data.get("lastnames"))) + " Differents lastnames..."
 print(s)
-
+print()
+print("===Character===")
+print()
 #Randomize a name
 
 lenght = len(data["names"]) -1# To better understand, this line will be out from the randint.
@@ -28,5 +30,17 @@ lenght = len(data["lastnames"]) -1 # To better understand, this line will be out
 random =randint(0,lenght)
 randomLast =  data["lastnames"][random]
 
-s = randomName +" " +randomLast
-print(s)	
+s = randomName +" " +randomLast #NPC name
+p = "Peculiars:" #NPC peculiars
+randomQPeculiar = randint(1,3) #Random number of peculiars in a NPC
+for i in range(randomQPeculiar):
+	lenght = len(data["peculiar"]) -1 # To better understand, this line will be out from the randint.
+	random =randint(0,lenght)		
+	randomPeculiar = data["peculiar"][random] 
+	while(randomPeculiar in p):
+		random =randint(0,lenght)		
+		randomPeculiar = data["peculiar"][random]
+	p = p +" " +randomPeculiar
+
+print(s)
+print(p)

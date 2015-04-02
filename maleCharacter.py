@@ -2,7 +2,7 @@
 import json 
 #from pprint import pprint Not used
 from random import randint
-
+from random import randDouble
 #The best name is a simple name
 print ("Male Character")
 
@@ -42,5 +42,10 @@ for i in range(randomQPeculiar):
 		randomPeculiar = data["peculiar"][random]
 	p = p +" " +randomPeculiar
 
+#Weakness
+
+age = randint(5,90)
+height = randint() #If not dwarf
+weight = randint() #If not dwarf
 print(s)
 print(p)

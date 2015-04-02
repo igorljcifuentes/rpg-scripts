@@ -5,5 +5,21 @@
 	"Svenson", "Meier", "Hatsune","Pretrous","Erikson","Baggins","Milner","Draven","Khan","Kita","Juul","Andersen","Paukonnen","Friberg","Christiansen","Christiason"
 ],
 "peculiar":[
-	"Big nose","Hairless","Big Hands","Scar","Earring","Big mouth","Little hands","Yellow teeth","Long Hair","Thoothless","Big foots","Little foots","Ring","Strange clothes","Nervous","Bad Odor","Short Hair","Sick","Beard", "Long beard"
-]}
+	"Big nose","Pious","Hairless","Big Hands","Scar","Earring","Big mouth","Little hands","Yellow teeth","Long Hair","Thoothless","Big foots","Little foots","Ring","Strange clothes","Nervous","Bad Odor","Short Hair","Sick","Beard", "Long beard"
+],
+"child":[
+	"Street kid","Orphan","Fatherless","Page", "Messenger","Thief","Rich","Farmer"
+],
+"young":[
+	"Page","Squire","Shop's Assistant","Messenger","Appretince","Street guy","Thief","Rich","Farmer","Nomad"
+],
+"adult":[
+	"Soldier", "Farmer", "Thief", "Actor", "Bard", "Woodman","Guard","Merchant","Shoopkeeper","Villager"
+],
+"old":[
+	"Elder","Villager","Ex-Soldier","Farmer"
+],
+"weakness":[
+	"Shy","Nervous","Gluton","Obsesive"
+]
+}
